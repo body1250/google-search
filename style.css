@@ -1,0 +1,45 @@
+
+
+.searches{
+    display: block;
+    direction: rtl;
+    background-color: white;
+}
+
+button{
+padding: 15px;
+margin: 0;
+border: 0;
+background-color: white;
+}
+button:hover{
+    text-decoration: underline;
+}
+form{
+    display: block;
+    margin: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+form input{
+    
+    font-size: large;
+}
+
+form input[type="text"]{
+    border-radius: 25px;
+    width: 70%;
+    height: 50px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    background-color:#e8e6e6 ;
+}
+form input[type="text"]:hover{
+    background-color: #d9d9d9;
+}
+
+form input[type="submit"]{
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 10px 15px ;
+}
